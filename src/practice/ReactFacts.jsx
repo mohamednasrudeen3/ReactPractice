@@ -3,6 +3,11 @@ import { createRoot } from 'react-dom/client';
 const root = createRoot(document.getElementById('root'));
 
 root.render(
+  <Temporary/>
+)
+
+function Temporary(){
+  return(
   <main>
   <img src="./src/practice/image.png" width="40px"/>
   <h1>Fun Facts About React</h1>
@@ -14,5 +19,5 @@ root.render(
     <li>Power Thousands Of enterprise Apps Including Mobile Apps</li>
   </ul>
   </main>
-
-)
+  )
+}
