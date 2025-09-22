@@ -37,10 +37,9 @@ nav > img{
   margin-right: 7px;
 }
 
-header {
- height: 90px;
- background-color: #21222A;
- padding: 30px 25px
+
+header>img{
+  height: 55px;
 }
 
 nav > span{
