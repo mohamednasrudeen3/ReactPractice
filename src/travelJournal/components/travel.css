@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#F5EFE6; /* White background */
+  color: #222;           /* Black text */
+  font-family: Arial, sans-serif;
+}
+
 header {
 background:#F55A5A;
 display: flex;
@@ -20,7 +28,7 @@ header> h1{
 article.journal-entry{
   display: flex;
   margin-top: 20px;
-  background-color:;
+  
 }
 article.journal-entry .main-image-container{
 

@@ -1,6 +1,7 @@
 import image from "../components/location.png"
 import "./travel.css"
 export default function Entry(props){
+  console.log(props)
   return(
     <article className="journal-entry">
       <div className="main-image-container">
@@ -14,7 +15,7 @@ export default function Entry(props){
         <span className="country">{props.country}</span>
         <a className="link" href={props.googleMapLink}>View On Google Maps</a>
         <h2>{props.title}</h2>
-        <p className="trip Dates">{props.date}</p>
+        <p className="trip Dates">{props.dates}</p>
         <p>{props.text}</p>
         <h1></h1>
 

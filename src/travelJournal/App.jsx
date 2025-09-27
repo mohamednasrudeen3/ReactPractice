@@ -7,12 +7,13 @@ export default function App(){
     return(
       <Entry
          key={entry.id}
-         img={entry.img}
-         title={entry.title}
-         country={entry.country}
-         googleMapLink={entry.googleMapLink}
-         dates={entry.dates}
-         text={entry.text}
+        //  img={entry.img}
+        //  title={entry.title}
+        //  country={entry.country}
+        //  googleMapLink={entry.googleMapLink}
+        //  dates={entry.dates}
+        //  text={entry.text}
+         {...entry}
       />
     )
   })
